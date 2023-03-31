@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #fed4d5;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.boxcontent {
+  height: auto;
+  box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
+  padding: 20px;
+  transition: ease all 0.5s;
+  background-color: #e6f9df;
+  text-align: left;
+}
+
+.boxcon {
+  height: auto;
+  box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
+  padding: 20px;
+  margin: 20px;
+  transition: ease all 0.5s;
+  background-color: #ffffff;
+  text-align: left;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 90%;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+
+.btnin {
+  margin: 25px;
+  padding: 20px;
+  border-radius: 7px;
+  background-color: #476a3d;
+  box-shadow: 5px 10px 20px #363e4f;
+  width: 20%;
+  height: 80%;
+  font-size: 20px;
+  color: #ffffff;
+  border: none;
+}
+
+.btnout {
+  margin: 25px;
+  padding: 20px;
+  border-radius: 7px;
+  background-color: #8b0611;
+  box-shadow: 5px 10px 20px #363e4f;
+  width: 20%;
+  height: 80%;
+  font-size: 20px;
+  color: #ffffff;
+  border: none;
+}
+
+.page_404 {
+  padding: 20px;
+  width: 100%;
+}
+
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
+}
+
+.four_zero_four_bg h1 {
+  font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+
+.contant_box_404 {
+  margin-top: -50px;
+}
